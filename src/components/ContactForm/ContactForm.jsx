@@ -21,10 +21,6 @@ export const ContactForm = props => {
     setValues(prevState => ({ ...prevState, [name]: value }));
   };
 
-  // const reset = () => {
-  //   setValues();
-  // };
-
   const nameInputId = nanoid();
   const numberInputId = nanoid();
   return (
