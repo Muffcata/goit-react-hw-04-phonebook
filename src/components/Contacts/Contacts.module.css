@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 10px;
+  margin: 33px;
+}
+.list {
+  width: 290px;
+  border-bottom: 2px solid #7b605f;
+  border-radius: 10px;
+  display: flex;
+  padding: 2px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+.button {
+  border: 2px solid #7b605f;
+  border-radius: 10px;
+  padding: 0 4px 0 4px;
+  cursor: pointer;
+}
+.text {
+  width: auto;
+  margin-top: 5px;
+  display: flex;
+  gap: 60px;
+}
+.name {
+  display: flex;
+}
